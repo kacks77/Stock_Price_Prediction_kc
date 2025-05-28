@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
-from keras.models import Sequential
-from keras.layers import LSTM, Dense
+from tensorfow.keras.models import Sequential
+from tensorfow.keras.layers import LSTM, Dense
 import plotly.graph_objects as go
 
 # --- Load and preprocess the data

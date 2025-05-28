@@ -1,0 +1,25 @@
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.VENV/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files (macOS/Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints (if you use notebooks later)
+.ipynb_checkpoints/
+
+# Ignore config and secrets (so your API key doesn't get leaked)
+config.py
+.secrets/
+.streamlit/secrets.toml
+*.env

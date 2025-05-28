@@ -6,7 +6,7 @@ from stock_model import  train_model, predict_stock, evaluate_model, plot_predic
 from config import ALPHAVANTAGE_API_KEY
 
 # -----------------------------
-# Function to fetch stock data
+# Function to fetch stock datastr
 # -----------------------------
 def get_stock_data_from_alpha_vantage(symbol, start_date, end_date):
     url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AMZN&apikey=6HXJV13R2HBYQWPV"
